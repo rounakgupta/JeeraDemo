@@ -11,11 +11,6 @@ closeBtn.onclick = function (e) {
 if (cardNumber === null) {
     localStorage.setItem("totalCards", "0");
 }
-else if (cardNumber > 0) {
-    document.getElementById("noCard").style.display = "none";
-    renderCard();
-}
-
 
 btn.onclick = (event) => {
     // event.target;
